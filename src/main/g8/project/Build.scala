@@ -48,9 +48,9 @@ object $name;format="Camel"$Build extends Build {
         "Local Maven Repository" at "file://" + Path.userHome + "/.m2/repository"
       ),
       libraryDependencies ++= {
-        val akkaVersion = "2.2.0"
-        val liftVersion = "2.5"
-        val slickVersion = "1.0.0"
+        val akkaVersion = "2.2.3"
+        val liftVersion = "2.6-M1"
+        val slickVersion = "1.0.1"
         val scalateVersion = "1.6.1"
         val scalatraVersion = "2.2.1"
         Seq(
@@ -124,7 +124,33 @@ object $name;format="Camel"$Build extends Build {
         //"commons-codec"           %  "commons-codec"                % "1.8",
         //"org.clapper"             %% "classutil"                    % "1.0.3",
         //"javax.mail"              %  "mail"                         % "1.4.7",
+        //"org.apache.commons"      %  "commons-lang3"                % "3.1",
+        //"org.apache.commons"      %  "commons-io"                   % "1.3.2",
+        //"org.apache.commons"      %  "commons-digester3"            % "3.2",
         //"org.apache.commons"      %  "commons-compress"             % "1.5",
+        //"org.apache.commons"      %  "commons-math"                 % "2.2",
+        //"org.apache.commons"      %  "commons-exec"                 % "1.1",
+        //"org.apache.commons"      %  "commons-email"                % "1.3.1",
+        //"org.apache.commons"      %  "commons-jexl"                 % "2.1.1",
+        //"org.apache.commons"      %  "commons-math3"                % "3.2",
+        //"org.apache.commons"      %  "commons-vfs2"                 % "2.0",
+        //"org.apache.commons"      %  "commons-jci-core"             % "1.1",
+        //"org.apache.commons"      %  "commons-jci-fam"              % "1.1",
+        //"org.apache.commons"      %  "commons-proxy"                % "1.0",
+        //"org.apache.commons"      %  "commons-jci-javac"            % "1.0",
+        //"org.apache.commons"      %  "commons-jci-eclipse"          % "1.1",
+        //"org.apache.commons"      %  "commons-jci-rhino"            % "1.1",
+        //"org.apache.commons"      %  "commons-jci-janino"           % "1.1",
+        //"org.apache.commons"      %  "commons-jci-examples"         % "1.0",
+        //"org.apache.commons"      %  "commons-skin"                 % "3",
+        //"org.apache.commons"      %  "commons-parent"               % "32",
+        //"org.apache.commons"      %  "commons-jci-groovy"           % "1.1",
+        //"org.apache.commons"      %  "commons-build-plugin"         % "1.4",
+        //"org.apache.commons"      %  "commons-sandbox-parent"       % "10",
+        //"org.apache.commons"      %  "commons-jci"                  % "1.1",
+        //"org.apache.commons"      %  "commons-vfs2-examples"        % "2.0",
+        //"org.apache.commons"      %  "commons-vfs2-project"         % "2.0",
+        //"org.apache.commons"      %  "commons-daemon"               % "1.0.9",
         //"org.scalatra"            %% "scalatra"                     % scalatraVersion,
         //"org.scalatra"            %% "scalatra-swagger"             % scalatraVersion,
         //"org.scalatra"            %% "scalatra-scalate"             % scalatraVersion,
